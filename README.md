@@ -1,56 +1,47 @@
-# Hi there, I'm Fatma Hammami 👋
+# Fatma Hammami — Data Analyst
 
-## 🚀 Data Analyst & Business Strategist
+Diplômée d'un **Master 2 en économie** (statistiques, économétrie, analyse de données) de l'Université Marie et Louis Pasteur, je transforme des données brutes en indicateurs fiables, en analyses claires et en tableaux de bord utiles à la décision.
 
-Welcome to my GitHub portfolio! I am passionate about transforming complex data into actionable strategic insights. My expertise lies in bridging the gap between advanced analytics (Machine Learning, Statistical Modeling) and real-world business applications (Pricing, Retail Expansion, Consumer Behavior).
+**Expériences :** Data Analyst chez **Cdiscount** (indicateurs, tableaux de bord Power BI, SQL sur Snowflake, contrôles qualité) · deux stages en laboratoire de recherche en économie au **CRESE** (séries temporelles, prévision et modèle de diffusion sous R et Python).
 
----
-
-## 🛠️ Tech Stack & Tools
-
-- **Languages**: Python, R, SQL
-- **Data Visualization**: Power BI, Tableau, Plotly, ggplot2, Seaborn, Matplotlib
-- **Machine Learning**: Scikit-Learn, XGBoost, Random Forest, K-Means, LSTM
-- **Databases**: MySQL, PostgreSQL, BigQuery
-- **Domains**: E-commerce Analytics, Neuromarketing, Dynamic Pricing, Retail Strategy, Workplace Well-being
+**Ce que j'aime faire :** constituer des séries fiables, contrôler la qualité des données, modéliser, puis expliquer simplement les résultats.
 
 ---
 
-## 🏆 Featured Projects
+## Compétences
 
-### 1. [E-Commerce Growth Engine: Analyse de la Performance et Optimisation de la LTV](https://github.com/fatma-analytics/E-Commerce-Growth-Engine-Analytics)
-*A comprehensive SQL-based analysis of the Brazilian E-Commerce Public Dataset by Olist. It leverages advanced analytical techniques (RFM, Cohorts) to segment customers, measure retention, and identify key revenue drivers.*
-
-### 2. [Beauty Analytics: Consumer Segmentation & Cosmetic Trends](https://github.com/fatma-analytics/Beauty-Analytics-Cosmetics-Trends)
-*An in-depth SQL and Python analysis of Sephora products and customer reviews, focusing on market segmentation, pricing strategies, and product performance.*
-
-### 3. [Remote Work & Mental Health Analytics](https://github.com/fatma-analytics/Remote-Work-Mental-Health-Analytics)
-*A comprehensive study on the impact of remote work on employee well-being and productivity, featuring EDA, Random Forest modeling, and strategic recommendations.*
-
-### 4. [AI-Driven Dynamic Pricing Model](https://github.com/fatma-analytics/AI-Driven-Dynamic-Pricing-Model)
-*A comprehensive consulting report and implementation plan for an AI-powered dynamic pricing system in the hospitality sector, utilizing XGBoost and LSTM.*
-
-### 5. [Neuromarketing Analytics & AI Insights](https://github.com/fatma-analytics/Neuromarketing-Analytics-AI-Driven-Insights)
-*An in-depth case study exploring how AI and biometric data can optimize marketing campaigns and consumer engagement.*
-
-### 6. [Uniqlo Expansion Strategy (France)](https://github.com/fatma-analytics/uniqlo-expansion-france-)
-*A strategic Power BI dashboard and report analyzing market entry, competitor landscape, and SWOT for Uniqlo's expansion.*
-
-### 7. [Advanced Consumer Behavior Analytics (R)](https://github.com/fatma-analytics/R-Advanced-Consumer-Behavior-Analytics)
-*Statistical modeling and K-Means clustering in R to uncover e-commerce purchasing drivers and price sensitivity.*
-
-### 8. [Spotify Customer Segmentation](https://github.com/fatma-analytics/spotify-customer-segmentation)
-*End-to-end SQL and Python project analyzing user listening habits, demographic trends, and premium conversion rates.*
+| Domaine | Outils |
+|---|---|
+| Langages | **R** (tidyverse, ggplot2, Quarto) · **SQL** (PostgreSQL, BigQuery, Snowflake, DuckDB) · **Python** (pandas, scikit-learn) |
+| Statistique | séries temporelles, désaisonnalisation (X-13), économétrie, tests statistiques, enquêtes |
+| Data | qualité des données, ETL / ELT, dbt, modèles en étoile, recette |
+| Restitution | Power BI (DAX, Power Query), Looker Studio, Tableau, publications reproductibles |
 
 ---
 
-## 📈 GitHub Stats
+## Projets phares
 
-![Fatma's GitHub stats](https://github-readme-stats.vercel.app/api?username=fatma-analytics&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fatma-analytics&layout=compact&theme=radical)
+| Projet | En bref | Outils |
+|---|---|---|
+| [**Désaisonnalisation et séries longues de la population détenue**](https://github.com/fatma-analytics/detenus-series-cvs-r) | Série mensuelle 2008-2025 reconstituée à partir de 134 publications du ministère de la Justice, désaisonnalisation X-13 avec effet calendaire, recette automatique et note de synthèse. | R, X-13, ggplot2, Quarto |
+| [**Monitoring de la qualité des données**](https://github.com/fatma-analytics/olist-data-quality-monitoring) | Pipeline qui profile les tables e-commerce Olist, mesure complétude et cohérence, signale les anomalies et alimente un suivi Power BI. | Python, SQL, Power BI |
+| [**Data products avec dbt (Data Mesh)**](https://github.com/fatma-analytics/data-mesh-data-product-dbt) | Trois domaines métier (ventes, clients, logistique) publiés comme data products : 12 modèles dbt, 16 tests de qualité, contrats et lignage. | dbt, SQL, Power BI |
+| [**Analyse du risque de crédit**](https://github.com/fatma-analytics/credit-risk-analysis) | Portefeuille de 5 000 prêts fictifs : taux de défaut, perte attendue, cohortes et modèle de scoring (AUC 0,78), dashboard interactif. | SQL, Python |
+| [**Performance des magasins sur BigQuery**](https://github.com/fatma-analytics/retail-store-performance-gcp) | Repérer chaque semaine les magasins en décrochage et expliquer la baisse (fréquentation, panier, promotions, ruptures). | BigQuery, SQL, Python |
+| [**Migration de reportings vers Power BI**](https://github.com/fatma-analytics/leasing-reporting-migration-powerbi) | Analyse de l'existant, modèle SQL contrôlé, modèle en étoile, mesures DAX et cahier de recette de 15 cas. | SQL, Power BI, DAX |
+
+### Autres projets
+
+- [Bilan énergétique et coût des écarts](https://github.com/fatma-analytics/energy-balance-analytics-fabric) : API éCO2mix, architecture bronze / silver / gold, contrôles qualité.
+- [Reporting d'avancement en courbes en S](https://github.com/fatma-analytics/project-progress-reporting-powerbi) : exports de planning simulés, KPI d'avancement, Power BI.
+- [Résolution d'identités B2B](https://github.com/fatma-analytics/b2b-identity-resolution-pipeline) : normalisation, appariement approximatif, qualité de bout en bout.
+- [Comportement des consommateurs en R](https://github.com/fatma-analytics/R-Advanced-Consumer-Behavior-Analytics) : tests statistiques, régression, K-Means et Random Forest.
+- [Segmentation des clients Spotify](https://github.com/fatma-analytics/spotify-customer-segmentation) et [analyse de panier](https://github.com/fatma-analytics/Market-Basket-Analysis).
 
 ---
 
-## 📫 Let's Connect!
+## Contact
 
-I am always open to discussing data strategy, analytics projects, or potential collaborations. Feel free to explore my repositories and reach out!
+[LinkedIn](https://www.linkedin.com/in/hammami-fatma/) · [Portfolio](https://fatma-analytics.netlify.app/)
+
+Disponible immédiatement pour un poste de **Data Analyst** ou de **chargée d'études statistiques**.
