@@ -1,0 +1,14 @@
+Issue Type,Summary,Description,Priority,Story Points,Epic Link,Labels,Sprint
+Epic,EP-01 Rachat partiel en ligne,"Digitaliser la demande de rachat partiel d'assurance vie : consultation, simulation, demande, orientation conformité, suivi.",High,,,"epargne",
+Story,US-01 Consulter ma valeur de rachat,"En tant que client, je veux voir la valeur de rachat et le montant maximum afin de savoir ce qui est possible. Règles : RG-01, RG-04. Tests : CT-03, CT-19.",High,2,EP-01,"epargne;front",Sprint 1
+Story,US-02 Simuler un rachat partiel,"En tant que client, je veux simuler un rachat afin de connaître répartition, encours restant et part de gains. Règles : RG-03, RG-04, RG-05, RG-09. Tests : CT-01, CT-06, CT-07, CT-08.",High,5,EP-01,"epargne;api",Sprint 1
+Story,US-03 Choisir les supports désinvestis,"En tant que client, je veux choisir les supports rachetés afin de préserver mes UC. Règle : RG-05. Tests : CT-04, CT-09, CT-10.",Medium,3,EP-01,"epargne;front",Sprint 2
+Story,US-04 Choisir l'IBAN de versement,"En tant que client, je veux choisir mon IBAN. Un nouvel IBAN bascule en attente de pièces. Règle : RG-08. Test : CT-15.",High,3,EP-01,"conformite;risques",Sprint 2
+Story,US-05 Valider ma demande,"En tant que client, je veux valider avec un code SMS afin d'être payé rapidement. Règles : RG-10, RG-11. Tests : CT-02, CT-17, CT-18.",High,5,EP-01,"epargne;securite",Sprint 2
+Story,US-06 Suivre ma demande,"En tant que client, je veux voir le statut de ma demande afin de ne pas appeler le service client. Test : CT-05.",High,2,EP-01,"epargne;front",Sprint 4
+Story,US-07 Orienter les dossiers sensibles,"En tant qu'analyste Conformité, je veux que les dossiers à risque ne soient jamais acceptés automatiquement. Règles : RG-02, RG-06, RG-07. Tests : CT-11 à CT-14, CT-16.",Highest,8,EP-01,"conformite;lcbft",Sprint 3
+Story,US-08 File de travail des gestionnaires,"En tant que gestionnaire, je veux une file des dossiers non automatiques avec leur motif. Contrôle : PIL-03.",High,5,EP-01,"backoffice",Sprint 4
+Story,US-09 Indicateurs de pilotage,"En tant que directrice Épargne, je veux suivre le taux d'automatisation. Contrôles : PIL-01, PIL-02.",Medium,3,EP-01,"pilotage",Sprint 4
+Bug,ANO-01 Arrondi de répartition au prorata,"Somme des lignes = 2 999,99 € pour 3 000 € demandés sur 3 supports. Attendu : somme exacte (RG-05). Corrigé : écart porté par le dernier support.",High,,EP-01,"recette",Sprint 2
+Bug,ANO-02 Motif LCB-FT visible par le client,"Le motif de contrôle conformité s'affiche sur l'écran E5. Attendu : message générique (SFD §3 E5).",Highest,,EP-01,"recette;conformite",Sprint 3
+Bug,ANO-03 Seuil fréquence LCB-FT non appliqué,"3e rachat sur 12 mois accepté automatiquement. Cause : règle de fréquence absente de la SFD v1.1. SFD passée en v1.2.",Highest,,EP-01,"recette;conformite",Sprint 3
