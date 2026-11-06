@@ -23,6 +23,7 @@ Diplômée d'un **Master 2 en économie** (statistiques, économétrie, analyse 
 
 | Projet | En bref | Outils |
 |---|---|---|
+| [**Business Analyst / AMOA : rachat partiel d'assurance vie en ligne**](projet-ba-rachat-assurance-vie) | Mission BA complète en assurance : ateliers métier, spécifications et 11 règles de gestion, user stories, BPMN / UML, comité de suivi, recette (19 cas, Postman, contrôles SQL), anomalies et support. | Jira, Postman, SQL, Python, BPMN |
 | [**Désaisonnalisation et séries longues de la population détenue**](https://github.com/fatma-analytics/detenus-series-cvs-r) | Série mensuelle 2008-2025 reconstituée à partir de 134 publications du ministère de la Justice, désaisonnalisation X-13 avec effet calendaire, recette automatique et note de synthèse. | R, X-13, ggplot2, Quarto |
 | [**Monitoring de la qualité des données**](https://github.com/fatma-analytics/olist-data-quality-monitoring) | Pipeline qui profile les tables e-commerce Olist, mesure complétude et cohérence, signale les anomalies et alimente un suivi Power BI. | Python, SQL, Power BI |
 | [**Data products avec dbt (Data Mesh)**](https://github.com/fatma-analytics/data-mesh-data-product-dbt) | Trois domaines métier (ventes, clients, logistique) publiés comme data products : 12 modèles dbt, 16 tests de qualité, contrats et lignage. | dbt, SQL, Power BI |
